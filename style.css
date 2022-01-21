@@ -1,0 +1,33 @@
+*{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 95%;
+    height: 370px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    user-select: none;
+    cursor: grab;
+}
+.slider_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.single_slide{
+    min-width: 260px;
+    margin: 0px 15px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.single_slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
